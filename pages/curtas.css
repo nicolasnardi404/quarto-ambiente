@@ -100,7 +100,7 @@ body {
 @media (min-width: 990px) {
   .menu {
     flex-direction: row;
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 

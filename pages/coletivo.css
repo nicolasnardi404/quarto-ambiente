@@ -1,9 +1,18 @@
 body {
   cursor: url("../images/mouse-cursor-qa.png"), auto;
-  background-image: url("../images/qa-image2.jpeg");
+  background-image: url("../images/qa-image.jpeg");
   background-size: cover;
   font-family: corrupted;
   user-select: none;
+  color: red;
+  margin-bottom: 20%;
+}
+h2 {
+  font-family: bitmap;
+  color: red;
+  text-shadow: 7px 7px 3px aqua;
+  font-size: 2em;
+  margin: 2em;
 }
 
 .title {
@@ -37,7 +46,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .menu a {
@@ -77,6 +86,6 @@ a:hover {
 @media (min-width: 990px) {
   .menu {
     flex-direction: row;
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
