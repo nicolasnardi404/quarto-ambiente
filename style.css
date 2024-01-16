@@ -1,0 +1,72 @@
+body {
+  cursor: url("./images/mouse-cursor-qa.png"), auto;
+  background-image: url("./images/qa1.jpg");
+  background-size: cover;
+  font-family: corrupted;
+  user-select: none;
+  margin-bottom: 10%;
+}
+
+@font-face {
+  font-family: corrupted;
+  src: url("./fonts/corrupted.ttf");
+}
+
+@font-face {
+  font-family: bitmap;
+  src: url("./fonts/8-bit-pusab.ttf");
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  color: blue;
+  text-shadow: 3px 3px 1px #ff00a6;
+  letter-spacing: 8px;
+  line-height: 110%;
+  background: #99ff00;
+  padding: 3% 3%;
+  border-radius: 30px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.links-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+  align-items: center;
+}
+
+.links {
+  color: #99ff00;
+  text-decoration: none;
+  background: red;
+  width: 200px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 30px;
+  font-family: bitmap;
+  border: 2px solid aqua;
+}
+.links:hover {
+  color: red;
+  background: aqua;
+  border: 2px solid #99ff00;
+  cursor: url("./images/mouse-cursor-qa-inverted.png"), auto;
+}
+
+@media (min-width: 720px) {
+  .title {
+    font-size: 4em;
+    padding: 5% 5%;
+  }
+}
