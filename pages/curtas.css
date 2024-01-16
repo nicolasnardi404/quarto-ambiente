@@ -76,12 +76,12 @@ body {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .title {
     font-size: 6em;
     padding: 5% 5%;
   }
-}
+} */
 
 @media (min-width: 800px) {
   .voltar {
