@@ -1,6 +1,6 @@
 body {
   cursor: url("../images/mouse-cursor-qa.png"), auto;
-  background-image: url("../images/qa-image2.jpeg");
+  background-image: url("../images/qa-image4.jpeg");
   background-size: cover;
   font-family: corrupted;
   user-select: none;
@@ -55,6 +55,20 @@ body {
 
 a:hover {
   cursor: url("../images/mouse-cursor-qa-inverted.png"), auto;
+}
+.music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.music iframe {
+  width: 20em;
+  height: 20em;
+  border: 10px solid red;
+  border-radius: 10px;
 }
 
 @font-face {
