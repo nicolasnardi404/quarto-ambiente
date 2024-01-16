@@ -76,19 +76,23 @@ body {
   align-items: center;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 720px) {
   .title {
     font-size: 6em;
     padding: 5% 5%;
   }
-} */
-
-@media (min-width: 800px) {
   .voltar {
     flex-direction: row;
     font-size: 1em;
   }
 }
+
+/* @media (min-width: 990px) {
+  .voltar {
+    flex-direction: row;
+    font-size: 1em;
+  }
+} */
 
 a:hover {
   cursor: url("../images/mouse-cursor-qa-inverted.png"), auto;
