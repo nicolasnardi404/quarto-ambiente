@@ -90,7 +90,7 @@ a:hover {
   z-index: 9999;
   animation: grow-and-disappear 12s linear 2s infinite forwards;
   opacity: 0;
-  transform: scale(1);
+  transform: scale(0.5);
 }
 
 .biscoito2 {
@@ -101,34 +101,34 @@ a:hover {
   z-index: 9999;
   animation: grow-and-disappear2 12s linear 2s infinite forwards;
   opacity: 0;
-  transform: scale(1);
+  transform: scale(0.5);
 }
 
 @keyframes grow-and-disappear {
   0% {
-    transform: scale(1);
+    transform: scale(0.5);
     opacity: 1;
   }
   20% {
-    transform: scale(2);
+    transform: scale(0.8);
     opacity: 0.5;
   }
   100% {
-    transform: scale(3) translateY(-600px);
+    transform: scale(1) translateY(-600px);
     opacity: 0;
   }
 }
 @keyframes grow-and-disappear2 {
   0% {
-    transform: scale(1);
+    transform: scale(0.5);
     opacity: 1;
   }
   20% {
-    transform: scale(2);
+    transform: scale(0.8);
     opacity: 0.5;
   }
   100% {
-    transform: scale(3) translateY(+600px);
+    transform: scale(1) translateY(+600px);
     opacity: 0;
   }
 }
