@@ -37,7 +37,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .menu a {
@@ -62,7 +62,7 @@ a:hover {
   padding: 5%;
   margin: 10%;
   font-family: bitmap;
-  font-size: 1.5vw;
+  font-size: 3.5vw;
   width: 10%;
   text-align: center;
   display: inline;
@@ -91,6 +91,9 @@ a:hover {
   .title {
     font-size: 6em;
     padding: 5% 5%;
+  }
+  .downloads {
+    font-size: 1.5vw;
   }
 }
 
