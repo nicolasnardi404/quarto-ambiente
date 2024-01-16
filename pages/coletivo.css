@@ -1,0 +1,82 @@
+body {
+  cursor: url("../images/mouse-cursor-qa.png"), auto;
+  background-image: url("../images/qa-image2.jpeg");
+  background-size: cover;
+  font-family: corrupted;
+  user-select: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  color: blue;
+  text-shadow: 3px 3px 1px #ff00a6;
+  letter-spacing: 8px;
+  line-height: 110%;
+  background: #99ff00;
+  padding: 3% 3%;
+  border-radius: 30px;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  color: red;
+  display: flex;
+  padding: 2%;
+  width: fit-content;
+  height: fit-content;
+  font-family: bitmap;
+  margin: 0 auto;
+  gap: 1em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.menu a {
+  background-color: aqua;
+  padding: 8%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.menu a:hover {
+  color: rgb(0, 242, 255);
+  background-color: red;
+}
+
+a:hover {
+  cursor: url("../images/mouse-cursor-qa-inverted.png"), auto;
+}
+
+@font-face {
+  font-family: corrupted;
+  src: url("../fonts/corrupted.ttf");
+}
+
+@font-face {
+  font-family: bitmap;
+  src: url("../fonts/8-bit-pusab.ttf");
+}
+
+@media (min-width: 720px) {
+  .title {
+    font-size: 6em;
+    padding: 5% 5%;
+  }
+}
+
+@media (min-width: 990px) {
+  .menu {
+    flex-direction: row;
+    font-size: 1em;
+  }
+}
