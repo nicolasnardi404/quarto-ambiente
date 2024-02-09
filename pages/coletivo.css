@@ -13,6 +13,11 @@ h2 {
   text-shadow: 7px 7px 3px aqua;
   font-size: 2em;
   margin: 2em;
+  text-align: center;
+  background-color: yellow;
+  animation: back 20s linear infinite alternate;
+  border-radius: 10px;
+  padding: 1em;
 }
 
 .title {
@@ -86,6 +91,35 @@ a:hover {
 @media (min-width: 990px) {
   .menu {
     flex-direction: row;
-    font-size: 0.9em;
+    font-size: 1.5vw;
+    gap: 2em;
+  }
+}
+
+@keyframes back {
+  0% {
+    background-color: #ffcc00;
+    text-shadow: 7px 7px 3px #ff0000;
+    color: #6600cc;
+  }
+  25% {
+    background-color: #ff0000;
+    text-shadow: -6px -12px 12px #00cc66;
+    color: #0000ff;
+  }
+  50% {
+    background-color: #ff66ff;
+    text-shadow: 4px 8px 4px #00cc66;
+    color: #ff9900;
+  }
+  75% {
+    background-color: #0000ff;
+    text-shadow: -1px -5px 10px #00cc66;
+    color: #ffcc00;
+  }
+  100% {
+    background-color: #ffff00;
+    text-shadow: 6px 3px 7px #00cc66;
+    color: #ff0000;
   }
 }
