@@ -73,6 +73,7 @@ body {
   font-family: bitmap;
   width: 80vw;
   padding: 1em;
+  padding-bottom: 2em;
   font-size: 0.5em;
 }
 .video-separated iframe {

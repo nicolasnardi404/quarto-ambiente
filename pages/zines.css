@@ -77,6 +77,19 @@ a:hover {
   color: fuchsia;
 }
 
+.presentation {
+  background-color: pink;
+  color: red;
+  margin: 1em;
+  padding: 1em 1.5em 1em 1em;
+  border-radius: 10px;
+  line-height: 2em;
+  text-align: center;
+  font-family: bitmap;
+  font-size: 3vw;
+  border: dashed 2px fuchsia;
+}
+
 @font-face {
   font-family: corrupted;
   src: url("../fonts/corrupted.ttf");
