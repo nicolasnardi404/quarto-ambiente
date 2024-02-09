@@ -8,16 +8,25 @@ body {
   margin-bottom: 20%;
 }
 h2 {
+  font-size: calc(1rem + 1vh);
   font-family: bitmap;
   color: red;
   text-shadow: 7px 7px 3px aqua;
-  font-size: 2em;
-  margin: 2em;
   text-align: center;
   background-color: yellow;
   animation: back 20s linear infinite alternate;
   border-radius: 10px;
   padding: 1em;
+  margin: 2em;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1rem;
+    padding: 1em;
+  }
 }
 
 .title {
